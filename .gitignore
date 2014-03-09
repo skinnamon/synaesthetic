@@ -1,13 +1,14 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Icon must ends with two \r.
+Icon
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
