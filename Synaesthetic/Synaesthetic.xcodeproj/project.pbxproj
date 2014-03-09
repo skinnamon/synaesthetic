@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D97F78FA18CC324B0052C0D1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97F78F918CC324B0052C0D1 /* Cocoa.framework */; };
+		D97F790418CC324B0052C0D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D97F790218CC324B0052C0D1 /* InfoPlist.strings */; };
+		D97F790618CC324B0052C0D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D97F790518CC324B0052C0D1 /* main.m */; };
+		D97F790A18CC324B0052C0D1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D97F790818CC324B0052C0D1 /* Credits.rtf */; };
+		D97F790D18CC324B0052C0D1 /* SynAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97F790C18CC324B0052C0D1 /* SynAppDelegate.m */; };
+		D97F791018CC324B0052C0D1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97F790E18CC324B0052C0D1 /* MainMenu.xib */; };
+		D97F791318CC324B0052C0D1 /* Synaesthetic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D97F791118CC324B0052C0D1 /* Synaesthetic.xcdatamodeld */; };
+		D97F791518CC324B0052C0D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97F791418CC324B0052C0D1 /* Images.xcassets */; };
+		D97F791C18CC324B0052C0D1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97F791B18CC324B0052C0D1 /* XCTest.framework */; };
+		D97F791D18CC324B0052C0D1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97F78F918CC324B0052C0D1 /* Cocoa.framework */; };
+		D97F792518CC324B0052C0D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D97F792318CC324B0052C0D1 /* InfoPlist.strings */; };
+		D97F792718CC324B0052C0D1 /* SynaestheticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D97F792618CC324B0052C0D1 /* SynaestheticTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D97F791E18CC324B0052C0D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97F78EE18CC324B0052C0D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97F78F518CC324B0052C0D1;
+			remoteInfo = Synaesthetic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D97F78F618CC324B0052C0D1 /* Synaesthetic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Synaesthetic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97F78F918CC324B0052C0D1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D97F78FC18CC324B0052C0D1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D97F78FD18CC324B0052C0D1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D97F78FE18CC324B0052C0D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D97F790118CC324B0052C0D1 /* Synaesthetic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Synaesthetic-Info.plist"; sourceTree = "<group>"; };
+		D97F790318CC324B0052C0D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D97F790518CC324B0052C0D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D97F790718CC324B0052C0D1 /* Synaesthetic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Synaesthetic-Prefix.pch"; sourceTree = "<group>"; };
+		D97F790918CC324B0052C0D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D97F790B18CC324B0052C0D1 /* SynAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynAppDelegate.h; sourceTree = "<group>"; };
+		D97F790C18CC324B0052C0D1 /* SynAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynAppDelegate.m; sourceTree = "<group>"; };
+		D97F790F18CC324B0052C0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D97F791218CC324B0052C0D1 /* Synaesthetic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Synaesthetic.xcdatamodel; sourceTree = "<group>"; };
+		D97F791418CC324B0052C0D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D97F791A18CC324B0052C0D1 /* SynaestheticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynaestheticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97F791B18CC324B0052C0D1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D97F792218CC324B0052C0D1 /* SynaestheticTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SynaestheticTests-Info.plist"; sourceTree = "<group>"; };
+		D97F792418CC324B0052C0D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D97F792618CC324B0052C0D1 /* SynaestheticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynaestheticTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D97F78F318CC324B0052C0D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97F78FA18CC324B0052C0D1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97F791718CC324B0052C0D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97F791D18CC324B0052C0D1 /* Cocoa.framework in Frameworks */,
+				D97F791C18CC324B0052C0D1 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D97F78ED18CC324B0052C0D1 = {
+			isa = PBXGroup;
+			children = (
+				D97F78FF18CC324B0052C0D1 /* Synaesthetic */,
+				D97F792018CC324B0052C0D1 /* SynaestheticTests */,
+				D97F78F818CC324B0052C0D1 /* Frameworks */,
+				D97F78F718CC324B0052C0D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D97F78F718CC324B0052C0D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D97F78F618CC324B0052C0D1 /* Synaesthetic.app */,
+				D97F791A18CC324B0052C0D1 /* SynaestheticTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D97F78F818CC324B0052C0D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D97F78F918CC324B0052C0D1 /* Cocoa.framework */,
+				D97F791B18CC324B0052C0D1 /* XCTest.framework */,
+				D97F78FB18CC324B0052C0D1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D97F78FB18CC324B0052C0D1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D97F78FC18CC324B0052C0D1 /* AppKit.framework */,
+				D97F78FD18CC324B0052C0D1 /* CoreData.framework */,
+				D97F78FE18CC324B0052C0D1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D97F78FF18CC324B0052C0D1 /* Synaesthetic */ = {
+			isa = PBXGroup;
+			children = (
+				D97F790B18CC324B0052C0D1 /* SynAppDelegate.h */,
+				D97F790C18CC324B0052C0D1 /* SynAppDelegate.m */,
+				D97F790E18CC324B0052C0D1 /* MainMenu.xib */,
+				D97F791418CC324B0052C0D1 /* Images.xcassets */,
+				D97F791118CC324B0052C0D1 /* Synaesthetic.xcdatamodeld */,
+				D97F790018CC324B0052C0D1 /* Supporting Files */,
+			);
+			path = Synaesthetic;
+			sourceTree = "<group>";
+		};
+		D97F790018CC324B0052C0D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D97F790118CC324B0052C0D1 /* Synaesthetic-Info.plist */,
+				D97F790218CC324B0052C0D1 /* InfoPlist.strings */,
+				D97F790518CC324B0052C0D1 /* main.m */,
+				D97F790718CC324B0052C0D1 /* Synaesthetic-Prefix.pch */,
+				D97F790818CC324B0052C0D1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D97F792018CC324B0052C0D1 /* SynaestheticTests */ = {
+			isa = PBXGroup;
+			children = (
+				D97F792618CC324B0052C0D1 /* SynaestheticTests.m */,
+				D97F792118CC324B0052C0D1 /* Supporting Files */,
+			);
+			path = SynaestheticTests;
+			sourceTree = "<group>";
+		};
+		D97F792118CC324B0052C0D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D97F792218CC324B0052C0D1 /* SynaestheticTests-Info.plist */,
+				D97F792318CC324B0052C0D1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D97F78F518CC324B0052C0D1 /* Synaesthetic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97F792A18CC324B0052C0D1 /* Build configuration list for PBXNativeTarget "Synaesthetic" */;
+			buildPhases = (
+				D97F78F218CC324B0052C0D1 /* Sources */,
+				D97F78F318CC324B0052C0D1 /* Frameworks */,
+				D97F78F418CC324B0052C0D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Synaesthetic;
+			productName = Synaesthetic;
+			productReference = D97F78F618CC324B0052C0D1 /* Synaesthetic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D97F791918CC324B0052C0D1 /* SynaestheticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97F792D18CC324B0052C0D1 /* Build configuration list for PBXNativeTarget "SynaestheticTests" */;
+			buildPhases = (
+				D97F791618CC324B0052C0D1 /* Sources */,
+				D97F791718CC324B0052C0D1 /* Frameworks */,
+				D97F791818CC324B0052C0D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97F791F18CC324B0052C0D1 /* PBXTargetDependency */,
+			);
+			name = SynaestheticTests;
+			productName = SynaestheticTests;
+			productReference = D97F791A18CC324B0052C0D1 /* SynaestheticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D97F78EE18CC324B0052C0D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Syn;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Nimbus;
+				TargetAttributes = {
+					D97F791918CC324B0052C0D1 = {
+						TestTargetID = D97F78F518CC324B0052C0D1;
+					};
+				};
+			};
+			buildConfigurationList = D97F78F118CC324B0052C0D1 /* Build configuration list for PBXProject "Synaesthetic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D97F78ED18CC324B0052C0D1;
+			productRefGroup = D97F78F718CC324B0052C0D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D97F78F518CC324B0052C0D1 /* Synaesthetic */,
+				D97F791918CC324B0052C0D1 /* SynaestheticTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D97F78F418CC324B0052C0D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97F790418CC324B0052C0D1 /* InfoPlist.strings in Resources */,
+				D97F791518CC324B0052C0D1 /* Images.xcassets in Resources */,
+				D97F790A18CC324B0052C0D1 /* Credits.rtf in Resources */,
+				D97F791018CC324B0052C0D1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97F791818CC324B0052C0D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97F792518CC324B0052C0D1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D97F78F218CC324B0052C0D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97F790618CC324B0052C0D1 /* main.m in Sources */,
+				D97F790D18CC324B0052C0D1 /* SynAppDelegate.m in Sources */,
+				D97F791318CC324B0052C0D1 /* Synaesthetic.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97F791618CC324B0052C0D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97F792718CC324B0052C0D1 /* SynaestheticTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D97F791F18CC324B0052C0D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97F78F518CC324B0052C0D1 /* Synaesthetic */;
+			targetProxy = D97F791E18CC324B0052C0D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D97F790218CC324B0052C0D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97F790318CC324B0052C0D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D97F790818CC324B0052C0D1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97F790918CC324B0052C0D1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D97F790E18CC324B0052C0D1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97F790F18CC324B0052C0D1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D97F792318CC324B0052C0D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97F792418CC324B0052C0D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D97F792818CC324B0052C0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D97F792918CC324B0052C0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D97F792B18CC324B0052C0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Synaesthetic/Synaesthetic-Prefix.pch";
+				INFOPLIST_FILE = "Synaesthetic/Synaesthetic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D97F792C18CC324B0052C0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Synaesthetic/Synaesthetic-Prefix.pch";
+				INFOPLIST_FILE = "Synaesthetic/Synaesthetic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D97F792E18CC324B0052C0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Synaesthetic.app/Contents/MacOS/Synaesthetic";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Synaesthetic/Synaesthetic-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SynaestheticTests/SynaestheticTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D97F792F18CC324B0052C0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Synaesthetic.app/Contents/MacOS/Synaesthetic";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Synaesthetic/Synaesthetic-Prefix.pch";
+				INFOPLIST_FILE = "SynaestheticTests/SynaestheticTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D97F78F118CC324B0052C0D1 /* Build configuration list for PBXProject "Synaesthetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97F792818CC324B0052C0D1 /* Debug */,
+				D97F792918CC324B0052C0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97F792A18CC324B0052C0D1 /* Build configuration list for PBXNativeTarget "Synaesthetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97F792B18CC324B0052C0D1 /* Debug */,
+				D97F792C18CC324B0052C0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D97F792D18CC324B0052C0D1 /* Build configuration list for PBXNativeTarget "SynaestheticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97F792E18CC324B0052C0D1 /* Debug */,
+				D97F792F18CC324B0052C0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D97F791118CC324B0052C0D1 /* Synaesthetic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D97F791218CC324B0052C0D1 /* Synaesthetic.xcdatamodel */,
+			);
+			currentVersion = D97F791218CC324B0052C0D1 /* Synaesthetic.xcdatamodel */;
+			path = Synaesthetic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D97F78EE18CC324B0052C0D1 /* Project object */;
+}
